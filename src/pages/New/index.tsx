@@ -4,7 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Bem vindo a search</Text>
+      <Text>Bem vindo a page new</Text>
     </View>
   );
 }
@@ -12,7 +12,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: 'grey',
     justifyContent: 'center',
     alignItems: 'center',
   },

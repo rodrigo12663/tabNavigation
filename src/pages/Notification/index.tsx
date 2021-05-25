@@ -4,7 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Bem vindo a tab navigation</Text>
+      <Text>Bem vindo a notification</Text>
     </View>
   );
 }
@@ -12,7 +12,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: 'green',
     justifyContent: 'center',
     alignItems: 'center',
   },
